@@ -1,0 +1,102 @@
+Linux  CRUD system.
+C- Create
+R -Read
+U- Update
+D-Destroy
+
+ 1  clear
+    2  sudo su
+    3  cd/
+    4  ls
+    5  ls -l
+    6  touch example.txt
+    7  touch example1.txt
+    8  ls
+    9  ls -l
+   10  ls -la
+   11  ls -lt
+   12  ls -ltr
+   13  clear
+   14  history
+   15  cat >example2.txt
+   16  cat example2.txt
+   17  cat example.txt
+   18  cat >example3.txt
+   19  cat >example2.txt example3.txt example4.txt
+   20  cat >example2.txt example3.txt example.txt
+   21  cat example.txt
+   22  cat example2.txt example3.txt >example4.txt
+   23  cat example4.txt
+   24  cat example2.txt
+   25  cat >example2.txt
+   26  cat example2.txt
+   27  cat example2.txt example3.txt >example4.txt
+   28  cat example4.txt
+   29  history
+   30  cat >example3.txt
+   31  cat example3.txt
+   32  cat >>example3.txt
+   33  cat example3.txt
+   34  clear
+   35  wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.78/bin/apache-tomcat-9.0.78.tar.gz
+   36  ls -l
+   37  yum install wget
+   38  sudo yum install wget
+   39  tar -xzf apache-tomcat-9.0.78.tar.gz
+   40  ls -l
+   41  clear
+   42  history
+   43  vi example5.txt
+   44  cat exmaple5.txt
+   45  cat example5.txt
+   46  cat exmaple6.txt
+   47  vi example6.txt
+   48  cat example6.txt
+   49  ls -l
+   50  rm -rf apache-tomcat-9.0.78
+   51  ls -l
+   52  rm example1.txt
+   53  ls -l
+   54  clear
+   55  history
+   56  vi hema.txt
+   57  cat hema.txt
+   58  cat -h
+   59  cat --help
+   60  ls -l
+   61  mkdir demo
+   62  ls -l
+   63  cd demo
+   64  ls -l
+   65  example2.txt
+   66  cd ..
+   67  ls -l
+   68  cp example2.txt demo
+   69  ls -l
+   70  cd demo
+   71  ls -l
+   72  cd ..
+   73  ls -l
+   74  mv example3.txt demo
+   75  ls -l
+   76  cd demo
+   77  ls -l
+   78  cd ..
+   79  ls -l
+   80  vi example6.txt
+   81  vi example5.txt
+   82  top -3 example5.txt
+   83  head -3 example5.txt
+   84  tail  -5 example5.txt
+   85  clear
+   86  ls -l
+   87  rm  example.txt
+   88  ls -l
+   89  rm -rf demo
+   90  ls -l
+   91  ll
+   92  ls --help
+   93  clear
+   94  grep example4.txt
+   95  clear
+   96  history
